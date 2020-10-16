@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!--
+		Nama 	: I Made Satria Bimantara
+		NIM	: 1808561013
+		Kelas	: A
+		Tugas	: Forms, CSS, Meta (Pertemuan 5)
+	-->
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Registration Page</title>
+	<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+	<!-- Container (Pembungkus) untuk image dan teks -->
+	<div class="container">
+		<!-- 
+			Deskripsi : Memberikan gambar header dengan mengakses dari folder assets
+		-->
+		<img src="assets/img/bali.jpg" alt="Foto Latar" class="img-header">  
+		<div class="container-text">
+			<div class="small-line">
+				<!-- 
+					Deskripsi : Memberikan tulisan pada gambar. Tulisan ini dibungkus lagi ke dalam container agar tulisannya bisa menjorok ke dalam dari container parent di luarnya
+				-->
+				<p class="text-1">
+					Halaman Pendaftaran
+				</p>
+				<p class="text-4">
+					Pendaftaran sebagai peserta dalam RAKERWIL (Rapat Kerja Wilayah) Bali dan Nusa Tenggara 2020
+				</p>
+			</div>
+		</div>
+	</div>
+	<!-- End Container For image dan teks -->
+	<!-- Container For Forms -->
+	<div class="container">
+		<!-- Attribute enctype="multipart/form-data" digunakan jika ada file yang diupload dari suatu page -->
+		<form action="index.html" method="post" enctype="multipart/form-data">
+			<div class="form-container">
+				<!-- Baris 1 -->
+				<div class="baris">
+					<!-- Kolom input "Nama Lengkap" -->
+					<div class="kolom">
+						<input type="text" name="input_nama_lengkap" id="input_nama_lengkap" class="form-input" placeholder="Nama Lengkap" >
+					</div>
+					<!-- Akhir kolom input "Nama Lengkap" -->
+					<!-- Kolom input "Nama Panggilan" -->
+					<div class="kolom">
+						<input type="text" name="input_nama_panggilan" id="input_nama_panggilan" class="form-input" placeholder="Nama Panggilan" >
+					</div>
+					<!-- Akhir kolom input "Nama Panggilan" -->
+				</div>
+				<!-- End Baris 1 -->
+				<!-- Baris 2 -->
+				<div class="baris">
+					<div class="kolom">
+						<!-- Kolom input "Nomor Telepon" -->
+						<input type="number" name="input_noHp" id="input_noHp" class="form-input" placeholder="No. Telepon" >
+						<!-- Akhir kolom input "Nomor Telepon" -->
+					</div>
+					<div class="kolom">
+						<!-- Kolom input "Email" -->
+						<input type="email" name="input_email" id="input_email" class="form-input" placeholder="Email" >
+						<!-- Akhir kolom input "Email" -->
+					</div>
+				</div>
+				<!-- End Baris 2 -->
+				<!-- Baris 3 -->
+				<div class="baris">
+					<!-- Kolom input "Tanggal Lahir" -->
+					<div class="kolom">
+						<input input type="text" placeholder="Tanggal Lahir" onfocus="(this.type='date')" name="input_tanggal_lahir" id="input_tanggal_lahir" class="form-input">
+					</div>
+					<!-- Akhir kolom input "Tanggal Lahir" -->
+					<!-- Kolom input "Tempat Lahir" -->
+					<div class="kolom">
+						<input type="text" name="input_tempat_lahir" id="input_tempat_lahir" class="form-input" placeholder="Tempat Lahir">
+					</div>
+					<!-- Akhir kolom input "Tempat Lahir" -->
+					<!-- Kolom input "Agama" -->
+					<div class="kolom">
+						<!-- Pilihan agama menggunakan tag select yang didalamnya berisi option untuk memilih agama yang sesuai -->
+						<select name="input_agama" id="input_agama" class="form-input">
+							<option value="">Agama</option>
+							<option value="Hindu">Hindu</option>
+							<option value="Islam">Islam</option>
+							<option value="Budha">Budha</option>
+							<option value="Katholik">Katholik</option>
+							<option value="Protestan">Protestan</option>
+							<option value="Konghucu">Konghucu</option>
+						</select>
+					</div>
+					<!-- Akhir kolom input "Agama" -->
+				</div>
+				<!-- End Baris 3 -->
+				<!-- Baris 4 -->
+				<div class="baris">
+					<!-- Kolom input "Universitas" -->
+					<div class="kolom">
+						<input type="text" name="input_universitas" id="input_universitas" class="form-input" placeholder="Universitas">
+					</div>
+					<!-- Akhir kolom input "Universitas" -->
+					<!-- Kolom input "Fakultas/Jurusan" -->
+					<div class="kolom">
+						<input type="text" name="input_fakultas_or_jurusan" id="input_fakultas_or_jurusan" class="form-input" placeholder="Fakultas/Jurusan">
+					</div>
+					<!-- Akhir kolom input "Fakultas/Jurusan" -->
+					<!-- Kolom input "Jabatan" -->
+					<div class="kolom">
+						<input type="text" name="input_jabatan" id="input_jabatan" class="form-input" placeholder="Jabatan">
+					</div>
+					<!-- Akhir kolom input "Jabatan" -->
+				</div>
+				<!-- End Baris 4 -->
+				<!-- Baris 5 -->
+				<div class="baris">
+					<!-- Kolom input "Alamat Asal" -->
+					<div class="kolom">
+						<input type="text" id="input_alamat" class="form-input" placeholder="Alamat Asal">
+					</div>
+					<!-- Akhir kolom input "Alamat asa" -->
+				</div>
+				<!-- End Baris 5 -->
+				<!-- Baris 6 -->
+				<div class="baris">
+					<!-- Kolom input "Foto Almamater" -->
+					<div class="kolom">
+						<label for="input_foto_almamater" class="form-label">
+							Foto Almamater
+						</label>
+						<input type="file" name="input_foto_almamater" id="input_foto_almamater" class="form-input-file">
+					</div>
+					<!-- Akhir kolom input "Foto Almamater" -->
+					<!-- Kolom input "Foto KTP" -->
+					<div class="kolom">
+						<label for="input_foto_ktp" class="form-label">
+							Scan KTP
+						</label>
+						<input type="file" name="input_foto_ktp" id="input_foto_ktp" class="form-input-file">
+					</div>
+					<!-- Akhir kolom input "Foto KTP" -->
+					<div class="kolom"></div>
+				</div>
+				<!-- End Baris 6 -->
+				<!-- Button untuk submit data dikirim -->
+				<button type="submit" class="button button-green">
+					Daftar
+				</button>
+			</div>
+		</form>
+	</div>
+	<!-- End Cointainer For Forms -->
+	<!-- Membuat space kosong diantara button dan bottom page -->
+	<div class="space">
+		
+	</div>
+</body>
+</html>
