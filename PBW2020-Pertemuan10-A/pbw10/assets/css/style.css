@@ -1,0 +1,23 @@
+body{
+   background-color: lightblue;
+}
+.card-form{
+   border-radius: 15px;
+   /* background-color: #e9ecef; */
+}
+.tombol{
+   border-radius: 30px;
+   font-size: 20px;
+   font-weight: 400;
+   font-family: arial;
+}
+label{
+   font-size: 18px;
+}
+small{
+   font-size: 14px;
+}
+input.form-control{
+   border-radius: 33px;
+   background-color: #fffdd0;
+}
