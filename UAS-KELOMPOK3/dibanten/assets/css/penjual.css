@@ -1,0 +1,642 @@
+/* 
+	ALL PROPERTIES
+	UTILITIES
+	*/
+	.btn-success {
+		background-color: #1FCC44;
+	}
+
+	.form-label {
+		font-family: 'PT Sans', sans-serif;
+		font-size: 20px;
+		font-weight: 100;
+	}
+
+	.img-portrait {
+		width: 500px;
+		height: 800px;
+		margin-left: auto;
+		display: block;
+		margin-right: auto;
+	}
+	.tombol {
+		text-transform: capitalize;
+		border-radius: 20px;
+		font-size: 15px;
+		font-weight: 100;
+		font-family: 'Lato', sans-serif;
+	}
+	.tombol-aksi{
+		margin-top: 3px;
+	}
+
+	.tombol-profile {
+		background-color: #FF1493;
+		color: white;
+	}
+
+	.tombol-profile:hover {
+		color: yellow;
+	}
+
+	.tombol-reset {
+		width: 150px;
+		background-color:  #ff0000 ;
+		color: white;
+		font-size: 15px;
+		text-transform: capitalize;
+	}
+
+	.tombol-reset:hover {
+		background-color:  #ff0000 ;
+		color: yellow;
+	}
+
+	.modal-title {
+		font-size: 20px;
+		text-transform: uppercase;
+		font-weight: bold;
+		font-family: 'Open Sans', sans-serif;
+	}
+	.modal-input{
+		border-radius: 10px;
+		font-family: 'Montserrat', sans-serif;
+		font-size: 15px;
+		font-weight: 100;
+		background-color: #fffeea;
+	}
+	.img-border {
+		border-radius: 10px;
+	}
+	.modal-dialog{
+		width: 50% !important;
+	}
+	
+	table{
+		border-spacing: 50px 0;
+		text-align: center;
+		vertical-align: center;
+	}
+	td.table-text{
+		font-family: 'Ubuntu', sans-serif;
+		font-size: 16px;
+		font-weight: 200;
+	}
+	th.table-header{
+		font-family: 'Poppins', sans-serif;
+		font-size: 16px;
+		font-weight: 200;
+		text-transform: capitalize;
+	}
+	.text-muted{
+		font-size: 14px;
+	}
+	/*Footer*/
+	.footer{
+		margin-top: 100px;
+	}
+	.footer p{
+		color: #acacac;
+		font-size: 18px;
+	}
+	/*Not Categorized*/
+	.label-harga{
+		color: red;
+		font-weight: 400;
+		font-size: 18px;
+		font-family: 'Poppins', sans-serif;
+	}
+	.label-diskon{
+		color: #acacac;
+		font-size: 18px;
+		font-weight: 400;
+	}
+	.item-center{
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
+	}
+	/*Card*/
+	.tombol-card{
+		text-transform: capitalize;
+		border-radius: 20px;
+		font-size: 15px;
+		font-weight: 100;
+		font-family: 'Lato', sans-serif;
+	}
+	.card-noborder{
+		border : 0px;
+	}
+	.card-header{
+		font-family: 'Bitter', serif;
+		font-size: 20px;
+	}
+	/*Button*/
+	.btn-warning{
+		color: #414a4c;
+	}
+	/*Pagination*/
+	.page-item .page-link{
+		border-color: #fff;
+		font-family: 'Bebas Neue', cursive;
+		color: #acacac;
+		padding: 0.25rem 0.5rem;
+		font-size: 1.5rem;
+		line-height: 1.5;
+	}
+	.page-number{
+		margin-top: 5px !important;
+	}
+	.page-item .page-link .btn-next{
+		font-size: 30px;
+	}
+	.page-item .page-link .btn-previous{
+		font-size: 30px;
+	}
+	.btn-dark{
+		background-color:#909090;
+	}
+
+
+
+/*
+PROPERTIES PENJUAL
+*/
+/* 1. login.php */
+.bg-login {
+	background-image: linear-gradient(to right, #9300CA, #9E00C8);
+}
+
+.bg-card-login {
+	margin-top: 100px;
+	margin-bottom: 100px;
+	border-radius: 10px;
+	background-color: white;
+}
+
+.in-card {
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+.input-login {
+	border-radius: 8px;
+	background-color: #E6E6E6;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	font-weight: 100;
+}
+
+div.pict-card {
+	display: none;
+}
+
+.login-title {
+	font-family: 'Noto Sans JP', sans-serif;
+	font-size: 40px;
+}
+.btn-block {
+	border-radius: 20px;
+	font-size: 20px;
+	font-family: 'Montserrat', sans-serif;
+}
+.btn-block-login {
+	display: block;
+	width: 100%;
+	border-radius: 20px;
+	font-size: 20px;
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+}
+a.text-forgot-login {
+	text-decoration: none;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+}
+span.text-forgot-login {
+	color: #1FCC44;
+}
+a.text-createaccount {
+	color: #1FCC44;
+	text-decoration: none;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+}
+.text-forgot {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	color: grey;
+	margin-bottom: 50px;
+	margin-top: 25px;
+}
+/* 2. index.php */
+/* Navbar */
+.navbar {
+	position: relative;
+	z-index: 1;
+}
+
+.img-brand {
+	height: 43px;
+}
+/* Jumbotron */
+.jumbotron-dashboard {
+	background-image: url(../imgstyle/jumbotron-bg.jpg);
+	background-size: cover;
+	height: 500px;
+	text-align: center;
+	position: relative; 
+}
+
+.jumbotron-dashboard::after {
+	content: '';
+	display: block;
+	width: 100%;
+	height: 100%;
+	background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+	position: absolute;
+	bottom: 0;
+}
+
+.jumbotron-dashboard .container {
+	position: relative;
+	z-index: 1;
+}
+.jumbotron-dashboard .display-4 {
+	color: white !important;
+	margin-bottom: 30px;
+	margin-top: 50px;
+	font-weight: 200;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+	font-size: 42px;
+}
+.jumbotron-dashboard .display-4 span {
+	font-weight: 400;
+}
+.jumbotron-dashboard form .input-group{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px !important;
+	
+}
+.jumbotron-dashboard form input{
+	opacity: 0.5;
+}
+.jumbotron-dashboard form input:hover{
+	opacity: 1;
+}
+.jumbotron-dashboard .input-group-text{
+	background-color: #e9ecef;
+}
+/*Keranjang panel*/
+.keranjang-panel {
+	box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);
+	border-radius: 12px;
+	margin-top: -125px;
+	margin-bottom: 200px;
+	background-color: white;
+	padding: 30px;
+}
+.keranjang-panel .card-toko{
+	border-radius: 10px;
+	margin-bottom: 50px;
+
+}
+.keranjang-panel-heading{
+	margin-bottom: 20px;
+}
+.keranjang-panel .card-keranjang-banten{
+	border: none;
+}
+.keranjang-panel .card-keranjang-banten img{
+	width: 150px;
+	height: 150px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+.keranjang-panel-heading p {
+	color: #acacac;
+	font-size: 18px;
+	font-weight: 400;
+	margin-bottom: 2px;
+}
+
+/* Service Panel */
+.service-panel {
+	box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);
+	border-radius: 12px;
+	margin-top: -100px;
+	margin-bottom: 100px;
+	background-color: white;
+	padding: 30px;
+}
+.service-panel img {
+	width: 80px;
+	height: 80px;
+	margin-right: 20px;
+}
+.service-panel h4 {
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-top: 5px;
+	font-size: 16px;
+}
+.service-panel p {
+	color: #acacac;
+	font-size: 16px;
+	margin-top: -5px;
+	font-weight: 400;
+}
+/*3. profile.php*/
+.profile-panel {
+	box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);
+	border-radius: 12px;
+	margin-top: -100px;
+	margin-bottom: 100px;
+	background-color: white;
+	padding: 30px;
+}
+.profile-panel img {
+	width: 150px;
+	height: 180px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+	display: block;
+}
+.profile-panel a {
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+	display: block;
+}
+.profile-panel h4 {
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-top: 5px;
+	font-size: 16px;
+}
+
+.profile-panel p {
+	color: #acacac;
+	font-size: 18px;
+	margin-top: -2px;
+	font-weight: 200;
+	font-family: 'Open Sans', sans-serif;
+}
+/*4. registrasitoko.php*/
+.toko-panel {
+	box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);
+	border-radius: 12px;
+	margin-top: -100px;
+	margin-bottom: 100px;
+	background-color: white;
+	padding: 30px;
+}
+.img-register-toko  {
+	width: 330px;
+	height: 780px;
+	margin-left: auto;
+	display: block;
+	margin-right: auto;
+	border-radius: 15px;
+}
+.img-banner-toko {
+	width: auto;
+	height: auto;
+	margin-left: auto;
+	display: block;
+	margin-right: auto;
+	border-radius: 5px;
+}
+
+.toko-panel a {
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+	display: block;
+}
+.toko-panel h4 {
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-top: 5px;
+	font-size: 16px;
+}
+.toko-panel label{
+	font-family: 'PT Sans', sans-serif;
+	font-size: 25px;
+	font-weight: 300;
+}
+.toko-panel p {
+	color: #acacac;
+	font-size: 18px;
+	margin-top: -2px;
+	font-weight: 200;
+	font-family: 'Open Sans', sans-serif;
+}
+.txt-area{
+	border-radius: 10px;
+	background-color: #E6E6E6;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	font-weight: 100;
+}
+.registrasi-title{
+	font-family: 'Noto Sans JP', sans-serif;
+	font-size: 30px;
+}
+/*5. informasitoko.php*/
+.btn-delete-toko{
+	text-transform: capitalize;
+	font-size: 16px;
+}
+/*6. etalase.php*/
+.etalase-header{
+	font-family: 'Poppins', sans-serif;
+	font-weight: 700;
+	font-size: 30px;
+}
+.service-panel .img-etalase {
+	width: 100%
+	height: 100%;
+	border-radius: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+.img-thumbnail-modal{
+	width: 200px;
+	height: 200px;
+	border-radius: 25px;
+}
+.small-modal-etalase{
+	font-size: 12px;
+}
+/* Untuk Media dekstop 992px */
+@media (min-width: 992px) {
+
+/*
+	ALL UTILITIES
+	*/
+	.modal-dialog{
+		width: auto;
+	}
+	.tombol-reset {
+		width: 200px;
+		background-color:  #ff0000 ;
+		color: white;
+		text-transform: uppercase;
+	}
+	.tombol {
+		font-size: 15px;
+		font-weight: 200;
+		font-family: 'Lato', sans-serif;
+		text-transform: uppercase;
+		font-family: 'Lato', sans-serif;
+	}
+	.tombol-aksi{
+		margin-top: 0px;
+	}
+	td.table-text{
+		font-family: 'Ubuntu', sans-serif;
+		font-size: 20px;
+		font-weight: 300;
+	}
+	th.table-header{
+		font-family: 'Poppins', sans-serif;
+		font-size: 22px;
+		font-weight: 400;
+		text-transform: uppercase;
+	}
+	/*Pagination*/
+	.page-item .page-link{
+		border-color: #fff;
+		font-family: 'Bebas Neue', cursive;
+		color: #acacac;
+		padding: 0.75rem 1.5rem;
+		line-height: 1.5;
+		font-size: 30px !important;
+	}
+	.page-number{
+		margin-top: 15px !important;
+	}
+	.page-item .page-link .btn-next{
+		font-size: 50px;
+	}
+	.page-item .page-link .btn-previous{
+		font-size: 50px;
+	}
+/*
+	PROPERTIES PENJUAL
+	*/
+	/* 1. login.php */
+	.bg-login {
+		background-image: linear-gradient(to right, #9300CA, #9E00C8);
+	}
+
+	.bg-card-login {
+		margin-top: 80px;
+		margin-bottom: 80px;
+		border-radius: 10px;
+		background-color: white;
+	}
+
+	.in-card {
+		padding-left: 30px;
+		padding-right: 30px;
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+
+	.input-login {
+		border-radius: 30px;
+		background-color: #E6E6E6;
+		font-family: 'Montserrat', sans-serif;
+		font-size: 16px;
+		font-weight: 100;
+	}
+
+	div.pict-card {
+		display: block;
+	}
+
+	.login-title {
+		font-family: 'Noto Sans JP', sans-serif;
+		font-size: 50px;
+	}
+	
+
+	/* 2. index.php (dashboard penjual) */
+	/* Navbar */
+	.nav-link {
+		text-transform: uppercase;
+		margin-right: 15px;
+		color: white !important;
+		text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+	}
+
+	/* Tombol Navbar aktif */
+	.nav-link:hover::after {
+		content: '';
+		display: block;
+		border-bottom: 3px solid rgb(114, 36, 187);
+		width: 50%;
+		margin: auto;
+		padding-bottom: 5px;
+		margin-bottom: -8px;
+	}
+	/* Jumbotron Picture di bawah navbar */
+	.jumbotron-dashboard {
+		height: 640px;
+		margin-top: -75px;
+	}
+
+	.jumbotron-dashboard .display-4 {
+		margin-top: 150px;
+		font-size: 62px;
+	}
+	/*5. informasitoko.php*/
+	.btn-delete-toko{
+		display: block;
+		width: 25%;
+		margin-top: 1rem;
+		margin-right: auto;
+		margin-left: auto;
+		font-size: 18px;
+		padding: 8px;
+		text-transform: uppercase;
+	}
+	/*6. etalase.php*/
+	.etalase-header{
+		font-family: 'Poppins', sans-serif;
+		font-weight: 700;
+		font-size: 40px;
+	}
+	.service-panel .img-etalase {
+		width: 100%;
+		height: 100%;
+		border-radius: 25px;
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
+	}
+	.img-thumbnail-modal{
+		width: 50%;
+		height: 50%;
+		border-radius: 30px;
+	}
+	.btn-block-etalase{
+		display: block;
+		width: 100%;
+		border-radius: 20px;
+		font-size: 16px;
+		font-family: 'Montserrat', sans-serif;
+	}
+
+
+}
